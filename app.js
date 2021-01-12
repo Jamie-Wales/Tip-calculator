@@ -27,9 +27,9 @@ function getTipAmount(amount, value, radioYes) {
     sum = (sum/100) * value; 
     if (radioYes.checked) {
         sum *= 2;
-        sum = sum;
+        
     }
-    return sum;
+    return Math.round(sum);
 }
 
 function clearInput(input) {
