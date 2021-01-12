@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="tip-calculator">
+        <form action="POST">
+            <h1>Welcome to my Jamie's tip Calculator</h1>
+            <label for="amount">How much was your meal</label>
+            <input type="number" id="amount" name="amount">
+            <label for="service">Select how your meal was</label>
+            <select name="service" id="service">
+                <option value="20">Excellent</option>
+                <option value="15">OK</option>
+                <option value="10">Satisfactory</option>
+                <option value="5">Poor</option>
+            </select>
+            <div class="radio">
+            <p>Are you feeling generous?</p>
+            <label for="generous-yes">Yes</label>
+            <input type="radio" name="generous" id="generous-yes">
+            <label for="generous-no">No</label>
+            <input type="radio" name="generous" id="generous-no">
+            <div id="calculate"><p>Calculate</p></div>
+            </div>
+            
+    </form>
+    </section>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

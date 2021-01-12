@@ -1,0 +1,43 @@
+body {
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+#amount,
+#service {
+  max-width: 300px;
+  min-width: 200px;
+}
+
+select {
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.radio {
+  display: inline;
+  text-align: center;
+}
+
+#calculate {
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  cursor: pointer;
+}
+
+#calculate p {
+  padding: 10px;
+}
+
+#calculate:hover {
+  background-color: lightcoral;
+  transition: 0.3s;
+}
