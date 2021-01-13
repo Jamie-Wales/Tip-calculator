@@ -16,7 +16,7 @@ btn.addEventListener('click', () => {
     el.innerHTML = `Total tip = £${tip}`;
     btn.appendChild(el);
     clearInput(meal);
-
+    
     
 })
 
@@ -29,7 +29,8 @@ function getTipAmount(amount, value, radioYes) {
         sum *= 2;
         
     }
-    return Math.round(sum);
+    sum = Math.round(sum);
+    return sum;
 }
 
 function clearInput(input) {
